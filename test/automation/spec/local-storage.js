@@ -8,7 +8,12 @@ chai.use(chaiAsPromised);
 chai.should();
 chaiAsPromised.transferPromises = wd.transferPromises;
 
-['chrome', 'firefox'].forEach(function(browserName) {
+var browsers = [
+  'chrome',
+  'firefox'
+];
+
+browsers.forEach(function(browserName) {
   describe('Local Storage in ' + browserName, function() {
     this.timeout(20*1000);
 
