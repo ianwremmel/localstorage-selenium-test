@@ -2,12 +2,10 @@
 
 /* eslint no-console: [0] */
 
-var fs = require('fs');
 var http = require('http');
 
 var express = require('express');
 var compression = require('compression');
-var url = require('url');
 
 var app = express();
 
@@ -34,4 +32,3 @@ var port = app.get('port') || process.env.PORT || 3000;
 http.createServer(app).listen(port, function() {
   console.log('Express server listening on port ' + port);
 });
-
