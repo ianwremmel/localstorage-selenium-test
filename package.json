@@ -1,5 +1,5 @@
 {
-  "name": "firefox-localstorage-selenium-demo",
+  "name": "localstorage-selenium-test",
   "version": "0.0.1",
   "devDependencies": {
     "chai": "^1.10.0",
