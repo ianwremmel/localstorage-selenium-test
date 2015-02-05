@@ -7,4 +7,4 @@ npm install
 grunt
 ```
 
-Right now, the demo will runs against chrome and firefox. Browsers can be configured by modifying `browsers` array in `test/automation/spec/local-storage.js'.
+Right now, the demo will runs against chrome and firefox. Browsers can be configured by modifying the `browsers` array in `test/automation/spec/local-storage.js'.
