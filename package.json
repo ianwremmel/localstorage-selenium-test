@@ -1,0 +1,18 @@
+{
+  "name": "firefox-localstorage-selenium-demo",
+  "version": "0.0.1",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "compression": "^1.4.0",
+    "express": "^4.11.2",
+    "grunt": "^0.4.5",
+    "grunt-continue": "^0.1.0",
+    "grunt-express-server": "^0.4.19",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-selenium-webdriver": "^0.2.431",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.0.0",
+    "wd": "^0.3.11"
+  }
+}
