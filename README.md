@@ -1,5 +1,7 @@
 # LocalStorage Selenium Test
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ianwremmel/localstorage-selenium-test.svg)](https://greenkeeper.io/)
+
 Run the demo with 
 
 ```bash
